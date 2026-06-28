@@ -202,9 +202,9 @@ function renderTable() {
         // Modules cell - combined view
         const modulesCell = document.createElement('td');
         const modulesContainer = document.createElement('div');
+        modulesContainer.className = 'modules-container';
         modulesContainer.style.display = 'flex';
         modulesContainer.style.flexWrap = 'wrap';
-        modulesContainer.style.gap = '10px';
         modulesContainer.style.justifyContent = 'center';
         
         // Ensure modules array exists
