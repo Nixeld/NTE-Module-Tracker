@@ -285,6 +285,7 @@ function renderTable() {
             decBtn.style.cursor = 'pointer';
             decBtn.style.fontSize = '10px';
             decBtn.style.transition = 'all 0.2s';
+            decBtn.style.textShadow = '0 2px 4px rgba(0, 0, 0, 0.5)';
             decBtn.onmouseover = () => { decBtn.style.transform = 'scale(1.1)'; };
             decBtn.onmouseout = () => { decBtn.style.transform = 'scale(1)'; };
             decBtn.onclick = (e) => {
@@ -317,6 +318,7 @@ function renderTable() {
             incBtn.style.cursor = 'pointer';
             incBtn.style.fontSize = '10px';
             incBtn.style.transition = 'all 0.2s';
+            incBtn.style.textShadow = '0 2px 4px rgba(0, 0, 0, 0.5)';
             incBtn.onmouseover = () => { incBtn.style.transform = 'scale(1.1)'; };
             incBtn.onmouseout = () => { incBtn.style.transform = 'scale(1)'; };
             incBtn.onclick = (e) => {
@@ -345,6 +347,7 @@ function renderTable() {
             removeModuleBtn.style.fontSize = '10px';
             removeModuleBtn.style.marginTop = '4px';
             removeModuleBtn.style.transition = 'all 0.2s';
+            removeModuleBtn.style.textShadow = '0 2px 4px rgba(0, 0, 0, 0.5)';
             removeModuleBtn.onmouseover = () => { removeModuleBtn.style.transform = 'scale(1.1)'; };
             removeModuleBtn.onmouseout = () => { removeModuleBtn.style.transform = 'scale(1)'; };
             removeModuleBtn.onclick = (e) => {
