@@ -37,11 +37,13 @@ const characterIcons = {
     'Haniel': 'characters/Haniel.webp',
     'Hathor': 'characters/Hathor.webp',
     'Hotori': 'characters/Hotori.webp',
+    'Iroi': 'characters/Iroi.webp',
     'Jiuyuan': 'characters/Jiuyuan.webp',
     'Lacrimosa': 'characters/Lacrimosa.webp',
     'Mint': 'characters/Mint.webp',
     'Nanally': 'characters/Nanally.webp',
     'Sakiri': 'characters/Sakiri.webp',
+    'Shinku': 'characters/Shinku.webp',
     'Skia': 'characters/Skia.webp',
     'Zero': 'characters/Zero.webp'
 };
